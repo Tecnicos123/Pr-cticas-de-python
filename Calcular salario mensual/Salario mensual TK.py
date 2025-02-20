@@ -3,29 +3,31 @@
 #Empleado 1 N B/2.77
 #empleado 2 S B/2.91
 
-print("Empleado No 1 N: ")
-dias= float(input("Ingrese el numero de días laborados: "))
-horas= 8
-costo= 2.77
+import math
+
+print ("Empleado No 1 N: ")
+dias = float(input("Ingrese el numero de días laborados: "))
+horas = 8
+costo = 2.77
             
 print ("Salario mensual: B/", (dias*horas*costo))
 
-print("Empleado No 2 S: ")
-dias= float(input("Ingrese el numero de días laborados: "))
-horas= 8
-costo= 2.91
+salario_Emp_1 = (dias*horas*costo)
+
+print ("Empleado No 2 S: ")
+dias = float(input("Ingrese el numero de días laborados: "))
+horas = 8
+costo = 2.91
             
 print ("Salario mensual: B/", (dias*horas*costo))
 
-print("Otro empleado")
+salario_Emp_2 = (dias*horas*costo)
 
-nombre= (input("Ingrese en nombre del empleado: "))
-dias= float(input("Ingrese el numero de días laborados: "))
-horas= float(input("Ingrese el número de horas por dia: "))
-costo= float(input("Ingrese el costo por hora: "))
-            
-print ("Nombre: ", nombre)
-print ("Salario mensual: B/", (dias*horas*costo))
+Riesgos_Prof = (salario_Emp_1+salario_Emp_2)*float(0.0098)
+Seguro_Edu = (salario_Emp_1+salario_Emp_2)*float(0.0275)
+Seguro_Social = (salario_Emp_1+salario_Emp_2)*float(0.36656)
+
+print ("Cuota mensual CSS: ", (Riesgos_Prof+Seguro_Edu+Seguro_Social))
 
 print("No hay mas empleados")
 exit()
