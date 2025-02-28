@@ -23,6 +23,8 @@ print ("Salario mensual: B/", (dias*horas*costo))
 
 salario_Emp_2 = (dias*horas*costo)
 
+print ("Total de salario de los dos empledos: ", (salario_Emp_1 + salario_Emp_2))
+
 Riesgos_Prof = (salario_Emp_1+salario_Emp_2)*float(0.0098)
 Seguro_Edu = (salario_Emp_1+salario_Emp_2)*float(0.0275)
 Seguro_Social = (salario_Emp_1+salario_Emp_2)*float(0.36656)
@@ -31,11 +33,3 @@ print ("Cuota mensual CSS: ", (Riesgos_Prof+Seguro_Edu+Seguro_Social))
 
 print("No hay mas empleados")
 exit()
-
-
-
-
-
-
-
-
