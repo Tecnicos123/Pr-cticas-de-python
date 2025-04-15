@@ -9,8 +9,10 @@ print ("Empleado No 1 N: ")
 dias = float(input("Ingrese el numero de días laborados: "))
 horas = 8
 costo = 2.77
+
+decimo_emp_1 = int(input("Ingrese el monto del décimo_emp_1: "))
             
-print ("Salario mensual: B/", "%.2f" % (dias*horas*costo))
+print ("Salario mensual: B/", "%.2f" % ((dias*horas*costo) + decimo_emp_1))
 
 salario_Emp_1 = (dias*horas*costo)
 
@@ -18,8 +20,10 @@ print ("Empleado No 2 S: ")
 dias = float(input("Ingrese el numero de días laborados: "))
 horas = 8
 costo = 2.91
+
+decimo_emp_2 = int(input("Ingrese el monto del décimo_emp_2: "))
             
-print ("Salario mensual: B/", "%.2f" % (dias*horas*costo))
+print ("Salario mensual: B/", "%.2f" % ((dias*horas*costo) + decimo_emp_2))
 
 salario_Emp_2 = (dias*horas*costo)
 
