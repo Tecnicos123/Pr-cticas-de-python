@@ -8,3 +8,4 @@ https://replit.com/
 
 https://pythongeeks.org/python-projects/
 
+https://rpubs.com/AdSan-R/Python_Basic
