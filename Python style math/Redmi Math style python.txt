@@ -1,7 +1,13 @@
 
-Este repositorio de código tiene el objetivo de orientar en la manera de aplicar los temas de matemáticas en el lenguaje de programación python, con el objetivo de ayudar a entender de manera gráfica las operaciones matemáticas, desde las más elementales como la suma y resta hasta los algoritmos más complejos. 
+<\ Este repositorio de código tiene el objetivo de orientar 
+en la manera de aplicar los temas de matemáticas en el 
+lenguaje de programación python, con el objetivo de ayudar 
+a entender de manera gráfica las operaciones matemáticas, 
+desde las más elementales como la suma y resta hasta los 
+algoritmos más complejos. 
 
-Solo piensen,  m… de qué manera se haría este problema en python ?
+Solo piensen,  m… de qué manera se haría este problema 
+en python ? />
 
 
 

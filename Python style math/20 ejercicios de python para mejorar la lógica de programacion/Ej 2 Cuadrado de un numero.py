@@ -1,3 +1,5 @@
+#crear una función que devuelva el cuadrado de un número
+
 def cuadrado_num(num):
     return num ** 2
 
