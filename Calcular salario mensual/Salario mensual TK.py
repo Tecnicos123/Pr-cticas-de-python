@@ -1,4 +1,4 @@
-#Calculo de horas laboradas en el mes por la tarifa por hora
+#Calculo de horas laboradas en el mes por la tarifa por hora mas décimo si lo hay
 #EL propósito es obtener el salrio mensual
 #Empleado 1 N B/2.77
 #empleado 2 S B/2.91
