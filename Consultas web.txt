@@ -13,3 +13,5 @@ https://rpubs.com/AdSan-R/Python_Basic
 https://platzi.com/
 
 https://ed.team/
+
+https://tkinterexamples.com/geometry/
