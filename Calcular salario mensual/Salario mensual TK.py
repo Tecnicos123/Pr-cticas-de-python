@@ -1,39 +1,73 @@
-#Calculo de horas laboradas en el mes por la tarifa por hora mas décimo si lo hay
-#EL propósito es obtener el salrio mensual mas el décimo, de haberlo
+#Calculo de horas laboradas en el mes por la tarifa por hora
+#EL propósito es obtener el salrio mensual
+#Empleado 1 N B/2.77
+#empleado 2 S B/2.91
+
+#Calculo de horas laboradas en el mes por la tarifa por hora
+#EL propósito es obtener el salrio mensual
 #Empleado 1 N B/2.77
 #empleado 2 S B/2.91
 
 import math
 
 print ("Empleado No 1 N: ")
-dias = float(input("Ingrese el numero de días laborados por el empleado 1 N: "))
+dias = float(input("Ingrese el numero de días laborados: "))
 horas = 8
 costo = 2.77
-
-decimo_emp_1 = int(input("Ingrese el monto del décimo_emp_1: "))
             
-print ("Salario mensual del empleado 1 N: B/", "%.2f" % (dias*horas*costo))
+print ("Salario mensual: B/", "%.2f" % (dias*horas*costo))
 
-salario_Emp_1 = (dias*horas*costo) + (decimo_emp_1)
+salario_Emp_1 = (dias*horas*costo)
 
 print ("Empleado No 2 S: ")
-dias = float(input("Ingrese el numero de días laborados por el empleado 2 S: "))
+dias = float(input("Ingrese el numero de días laborados: "))
 horas = 8
 costo = 2.91
-
-decimo_emp_2 = int(input("Ingrese el monto del décimo_emp_2: "))
             
-print ("Salario mensual del empleado 2 S: B/", "%.2f" % (dias*horas*costo))
+print ("Salario mensual: B/", "%.2f" % (dias*horas*costo))
 
-salario_Emp_2 = (dias*horas*costo) + (decimo_emp_2)
+salario_Emp_2 = (dias*horas*costo)
 
-print ("Total de salario de los dos empledos N y S: ", "%.2f" % (salario_Emp_1 + salario_Emp_2))
+print ("Total de salario de los dos empledos: ", "%.2f" % (salario_Emp_1 + salario_Emp_2))
 
 Riesgos_Prof = (salario_Emp_1+salario_Emp_2)*float(0.0098)
-Seguro_Edu = (salario_Emp_1+salario_Emp_2)*float(0.02159)
-Seguro_Social = (salario_Emp_1+salario_Emp_2)*float(0.34056)
+Seguro_Edu = (salario_Emp_1+salario_Emp_2)*float(0.0275)
+Seguro_Social = (salario_Emp_1+salario_Emp_2)*float(0.36656)
 
 print ("Cuota mensual CSS: ", "%.2f" % (Riesgos_Prof+Seguro_Edu+Seguro_Social))
 
 print("No hay mas empleados")
-exit()
+
+
+print("//***********************Con décimo***************************//")
+
+
+print ("Empleado No 1 N: ")
+dias = float(input("Ingrese el numero de días laborados: "))
+horas = 8
+costo = 2.77
+            
+print ("Salario mensual: B/", "%.2f" % (dias*horas*costo))
+
+salario_Emp_1 = (dias*horas*costo)
+
+print ("Empleado No 2 S: ")
+dias = float(input("Ingrese el numero de días laborados: "))
+horas = 8
+costo = 2.91
+            
+print ("Salario mensual: B/", "%.2f" % (dias*horas*costo))
+
+salario_Emp_2 = (dias*horas*costo)
+
+print ("Total de salario de los dos empledos: ", "%.2f" % (salario_Emp_1 + salario_Emp_2))
+
+decimo = int(input("Ingrese el monto total del décimo de los dos empleados: "))
+
+Riesgos_Prof = (salario_Emp_1+salario_Emp_2+decimo)*float(0.0098)
+Seguro_Edu = (salario_Emp_1+salario_Emp_2+decimo)*float(0.02159)
+Seguro_Social = (salario_Emp_1+salario_Emp_2+decimo)*float(0.34056)
+
+print ("Cuota mensual CSS, incluyendo el décimo: ", "%.2f" % (Riesgos_Prof+Seguro_Edu+Seguro_Social))
+
+print("No hay mas empleados")
