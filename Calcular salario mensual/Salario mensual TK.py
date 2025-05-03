@@ -3,12 +3,9 @@
 #Empleado 1 N B/2.77
 #empleado 2 S B/2.91
 
-#Calculo de horas laboradas en el mes por la tarifa por hora
-#EL propósito es obtener el salrio mensual
-#Empleado 1 N B/2.77
-#empleado 2 S B/2.91
-
 import math
+
+print("//***********************Sin décimo***************************//")
 
 print ("Empleado No 1 N: ")
 dias = float(input("Ingrese el numero de días laborados: "))
