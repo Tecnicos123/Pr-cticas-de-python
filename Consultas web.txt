@@ -14,4 +14,6 @@ https://platzi.com/
 
 https://ed.team/
 
-https://tkinterexamples.com/geometry/
+https://tkinterexamples.com/geometry/        # Consultas sobe Tkinter 
+
+https://developer.mozilla.org/es/            # Consultas sobre HTML, CSS y Javascript
