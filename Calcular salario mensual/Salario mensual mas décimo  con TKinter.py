@@ -40,8 +40,9 @@ def calcular():
 ===== RESUMEN =====
 Salario Empleado N: B/ {salario_emp1:.2f}
 Salario Empleado S: B/ {salario_emp2:.2f}
-Total de salarios: B/ {total_salarios:.2f}
-Décimo: B/ {decimo:.2f}
+Total de salarios de ambos empleados, sin décimo: B/ {total_salarios:.2f}
+Décimo total de ambos empleados: B/ {decimo:.2f}
+Total décimo mas salario de ambos empleados: B/ {total_salarios + decimo:.2f}
 
 ===== CUOTAS CSS =====
 Riesgos Profesionales: B/ {cuotas['riesgos_prof']:.2f}
