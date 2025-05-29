@@ -19,3 +19,5 @@ https://tkinterexamples.com/geometry/        # Consultas sobe Tkinter
 https://developer.mozilla.org/es/            # Consultas sobre HTML, CSS y Javascript
 
 https://www.wscubetech.com/resources/python/programs/convert-decimal-binary-octal-and-hexadecimal   # Prácticas de python
+
+https://kinsta.com/es/blog/programacion-orientada-objetos-python/    # Prácticas de Python con paradigma POO 
