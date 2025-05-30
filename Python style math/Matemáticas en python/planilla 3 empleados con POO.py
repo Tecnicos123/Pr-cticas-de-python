@@ -1,4 +1,4 @@
-# Calcular planilla de 3 empleados A, B, Y C, cada uno condiferente tarifa
+# Calcular planilla de 3 empleados A, B, Y C, cada uno con diferente tarifa
 
 import tkinter as tk
 from tkinter import messagebox
