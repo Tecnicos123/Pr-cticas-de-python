@@ -21,3 +21,5 @@ https://developer.mozilla.org/es/            # Consultas sobre HTML, CSS y Javas
 https://www.wscubetech.com/resources/python/programs/convert-decimal-binary-octal-and-hexadecimal   # Prácticas de python
 
 https://kinsta.com/es/blog/programacion-orientada-objetos-python/    # Prácticas de Python con paradigma POO 
+
+https://jahazielponce.com/estructuras-de-datos-en-python/  # Estructuras de datos en python
