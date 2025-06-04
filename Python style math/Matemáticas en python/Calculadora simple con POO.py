@@ -1,3 +1,5 @@
+# El término "self" se refiere a la clase personalizada que se utiliza para acceder a los miembros y métodos de la clase, así como para crear nuevos miembros
+
 class operaciones(): 
     def __init__(self):
         self.n1 = int(input("el primer numero es: "))
