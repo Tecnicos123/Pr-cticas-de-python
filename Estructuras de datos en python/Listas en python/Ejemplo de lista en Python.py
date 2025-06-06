@@ -1,4 +1,9 @@
-# Una lista en Python es una estructura de datos que permite almacenar múltiples elementos en una secuencia ordenada. Los elementos pueden ser de diferentes tipos y se pueden modificar después de crear la lista.
+'''
+Definición de lista: una lista en Python es una estructura de datos que permite almacenar múltiples elementos en una secuencia ordenada. Los elementos pueden ser de diferentes tipos y se pueden modificar después de crear la lista.
+
+Este código muestra cómo crear y manipular listas en Python, incluyendo operaciones comunes como agregar, acceder, modificar y eliminar elementos.
+
+'''
 
 # Ejemplo básico:
 

@@ -1,5 +1,9 @@
 '''
 Tuplas
+Las tuplas son una de las estructuras de datos más utilizadas en Python. Son similares a las listas, pero tienen una diferencia clave: las tuplas son inmutables, lo que significa que no se pueden modificar una vez creadas. Esto las hace ideales para almacenar datos que no deben cambiar durante la ejecución del programa.
+
+Las tuplas se definen utilizando paréntesis y pueden contener elementos de diferentes tipos, al igual que las listas. Sin embargo, a diferencia de las listas, no puedes agregar, eliminar o cambiar elementos en una tupla después de su creación.
+
 Las listas funcionan bien para almacenar colecciones de artículos que pueden cambiar a lo largo de la vida de un programa. La capacidad de modificar listas es particularmente importante cuando trabajamos con una lista de usuarios en un sitio web o una lista de personajes en un juego.
 
 Sin embargo, a veces vamos querer crear una lista de elementos que no queremos que cambien. Las tuplas nos permiten hacer exactamente eso. Python se refiere a valores que no pueden cambiar como inmutables, y una lista inmutable se llama tupla.
@@ -7,7 +11,8 @@ Sin embargo, a veces vamos querer crear una lista de elementos que no queremos q
 
 Para una explicación más completa, podemos ir al siguiente enlace.
 
-Ejercicio
+    Ejercicio
+
 Escribir un programa que permita procesar datos de pasajeros de viaje en una lista de tuplas con la siguiente forma: (nombre, dni, destino). Ejemplo: [(“Manuel Juarez”, 19823451, “Liverpool”), (“Silvana Paredes”, 22709128, “Buenos Aires”), (“Rosa Ortiz”, 15123978, “Glasgow”), (“Luciana Hernandez”, 38981374, “Lisboa”)] Además, en otra lista de tuplas se almacenan los datos de cada ciudad y el país al que pertenecen. Ejemplo: [(“Buenos Aires”,”Argentina”), (“Glasgow”,”Escocia”), (“Lisboa”, “Portugal”), (“Liverpool”,”Inglaterra”), (“Madrid”,”España”)] Hacer un menú iterativo que permita al usuario realizar las siguientes operaciones:
 
 Agregar pasajeros a la lista de viajeros.
@@ -17,6 +22,9 @@ Dada una ciudad, mostrar la cantidad de pasajeros que viajan a esa ciudad.
 Dado el DNI de un pasajero, ver a qué país viaja.
 Dado un país, mostrar cuántos pasajeros viajan a ese país.
 Salir del programa.
+
+    Fuente: https://jahazielponce.com/estructuras-de-datos-en-python/
+
 '''
 
 class PasajerosCiudades(object):

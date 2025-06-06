@@ -1,4 +1,4 @@
-# Diferentes tipos de listas en Python y sus usos más comunes:
+# Este código contiene diferentes tipos de listas en Python y sus usos más comunes:
 # Listas basicas, listas de números, listas de strings y listas mixtas.
 
 # Lista de números
