@@ -1,3 +1,16 @@
+'''
+Datos:
+
+Enter Principal: 5000
+Enter Rate (%): 5
+Enter Time (years): 2
+Enter Compounds/year: 1
+
+Resultados:
+Total Amount: 5512.50
+Compound Interest: 512.50
+'''
+
 # Programa en python para calcular el interés compuesto
 
 def compound_interest1(principal, rate, time, n):
