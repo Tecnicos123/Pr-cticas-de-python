@@ -22,6 +22,10 @@ https://www.wscubetech.com/resources/python/programs/convert-decimal-binary-octa
 
 https://kinsta.com/es/blog/programacion-orientada-objetos-python/    # Prácticas de Python con paradigma POO 
 
+https://python-para-impacientes.blogspot.com/p/indice.html     # Curso de python para leer, muy completo y con ejemplos
+
+https://python-para-impacientes.blogspot.com/p/blog-page_12.html   # My SQL en Python
+
 https://jahazielponce.com/estructuras-de-datos-en-python/  # Estructuras de datos en python
 
 https://solocodigoweb.com/blog/2017/05/20/optimizar-operaciones-de-listas-en-python/   # Estructuras de datos, práctica, alta concurrencia
