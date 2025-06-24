@@ -30,3 +30,4 @@ https://jahazielponce.com/estructuras-de-datos-en-python/  # Estructuras de dato
 
 https://solocodigoweb.com/blog/2017/05/20/optimizar-operaciones-de-listas-en-python/   # Estructuras de datos, práctica, alta concurrencia
 
+https://app.edutin.com/classroom?course_id=4494&source_id=148652   # Cursos de python gratuitos
