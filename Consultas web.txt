@@ -33,3 +33,5 @@ https://solocodigoweb.com/blog/2017/05/20/optimizar-operaciones-de-listas-en-pyt
 https://app.edutin.com/classroom?course_id=4494&source_id=148652   # Cursos de python gratuitos
 
 https://app.edutin.com/home   # Cursos gratuitos en videos
+
+https://www.discoverengineering.org/programming-foundations-for-mechanical-engineering/   # Temas de ingenieria mecánica
