@@ -28,7 +28,7 @@ print ("Total de salario de los dos empledos: ", "%.2f" % (salario_Emp_1 + salar
 
 Riesgos_Prof = (salario_Emp_1+salario_Emp_2)*float(0.0098)
 Seguro_Edu = (salario_Emp_1+salario_Emp_2)*float(0.0275)
-Seguro_Social = (salario_Emp_1+salario_Emp_2)*float(0.36656)
+Seguro_Social = (salario_Emp_1+salario_Emp_2)*float(0.24388)
 
 print ("Cuota mensual CSS: ", "%.2f" % (Riesgos_Prof+Seguro_Edu+Seguro_Social))
 

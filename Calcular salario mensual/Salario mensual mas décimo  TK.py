@@ -30,8 +30,8 @@ def calcular_cuotas_css(salario_total, decimo):
     """
     base_calculo = salario_total + decimo
     riesgos_prof = base_calculo * 0.0098
-    seguro_edu = base_calculo * 0.02159
-    seguro_social = base_calculo * 0.34056
+    seguro_edu = base_calculo * 0.0275
+    seguro_social = base_calculo * 0.24388
     total = riesgos_prof + seguro_edu + seguro_social
     
     return {

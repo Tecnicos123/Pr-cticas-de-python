@@ -16,7 +16,7 @@ def calcular_salarios():
 
         riesgos_prof = total_salarios * 0.0098
         seguro_edu = total_salarios * 0.0275
-        seguro_social = total_salarios * 0.36656
+        seguro_social = total_salarios * 0.24388
         cuota_css = riesgos_prof + seguro_edu + seguro_social
 
         resultado.set(
