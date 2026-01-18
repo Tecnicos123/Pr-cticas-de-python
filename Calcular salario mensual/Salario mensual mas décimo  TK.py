@@ -2,6 +2,7 @@
 #EL propósito es obtener el salrio mensual
 #Empleado 1 N B/2.77
 #empleado 2 S B/2.91
+#Empleado 3 E B/2.98
 
 def calcular_salario(dias_laborados, costo_hora, horas_diarias=8):
     """
@@ -82,6 +83,14 @@ def main():
     salario_emp_2 = calcular_salario(dias, costo)
     print(f"Salario mensual: B/ {salario_emp_2:.2f}")
     salarios["Empleado S"] = salario_emp_2
+
+    # Empleado 3
+    print("\n===== Empleado No 3 (E) =====")
+    dias = float(input("Ingrese el número de días laborados: "))
+    costo = 2.98
+    salario_emp_3 = calcular_salario(dias, costo)
+    print(f"Salario mensual: B/ {salario_emp_3:.2f}")
+    salarios["Empleado E"] = salario_emp_3
     
     # Décimo
     decimo = float(input("\nIngrese el monto total del décimo de los dos empleados: B/ "))
