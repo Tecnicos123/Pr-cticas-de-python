@@ -8,7 +8,3 @@ algoritmos más complejos.
 
 Solo piensen,  m… de qué manera se haría este problema 
 en python ? />
-
-
-
-
